@@ -1,0 +1,799 @@
+<!--
+Author: Mehdi
+-->
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<title>Gospel Of Taste Bandra</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+<!--CSS For Flag Corousal-->
+<link rel="stylesheet" type="text/css" href="media/includes/css/maisen.main.css" />
+<link rel="shortcut icon" href="media/images/favicon.ico" type="image/x-icon"/>
+<link rel="image_src" href="media/images/maisengasse_geburtstag.gif" />
+<!-- swfObject -->
+<script type="text/javascript" src="../ajax.googleapis.com/ajax/libs/swfobject/2.1/swfobject.js"></script>
+<script type="text/javascript">
+    JSDEBUG = false;
+    MEDIA_URL = 'media/index.html';
+</script>
+<script type="text/javascript" src="media/includes/js/main.compressed.r1477636309.js" charset="utf-8"></script>
+
+
+<!--Navbar CSS-->
+<link href="css/agency.min.css" rel="stylesheet">
+<script src="corousal-js/js/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+    $('a[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+        var target = this.hash;
+        $target = $(target);
+        $('html, body').stop().animate({
+            'scrollTop':  $target.offset().top //no need of parseInt here
+        }, 900, 'swing', function () {
+            window.location.hash = target;
+        });
+    });
+});
+</script>
+
+
+
+
+<!-- jQuery -->
+<script src="vendor/jquery/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+
+<!-- Theme JavaScript -->
+<script src="js/agency.min.js"></script>
+
+
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+<link rel="stylesheet" href="css/swipebox.css">
+<script src="js/jquery-1.8.3.min.js"></script>
+
+<!--Testimonials Script-->
+<script src="js/jquery.wmuSlider.js"></script> 
+
+<!------ Light Box ------>
+    <script src="js/jquery.swipebox.min.js"></script> 
+    <script type="text/javascript">
+		jQuery(function($) {
+			$(".swipebox").swipebox();
+		});
+	</script>
+<!------ Eng Light Box ------>
+
+
+<!---- start-smoth-scrolling---->
+<!-- <script type="text/javascript" src="js/move-top.html"></script>
+<script type="text/javascript" src="js/easing.html"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+		});
+	});
+</script> -->
+<!---End-smoth-scrolling---->
+
+<script src="js/responsiveslides.min.js"></script>
+<script>
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+      	nav: true,
+      	speed: 350,
+        namespace: "callbacks",
+        pager: true,
+      });
+    });
+</script>
+
+<style type="text/css">
+h3{
+
+font-family: 'game_of_thronesregular';
+}
+
+</style>
+
+</head>
+ 
+<!-- Preloader section
+================================================== -->
+<script type="text/javascript">
+$(document).ready(function () {
+ 
+  // preloader
+  $(window).load(function(){
+    $('.preloader').delay(2000).fadeOut(900);
+  })
+ 
+})
+</script>
+
+<!--Body start-->
+<body class="home font_got index">
+
+<div class="preloader">
+	<span class="preloader-gif"></span>
+</div>
+
+<!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+				<img src="images/logo.png" class="img-centered" alt="">
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#head">HOME</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#kingofnorth">Cafe Of The North</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#waffles">Waffles of Westeros</a>
+                    </li>
+<!--                     <li>
+                        <a class="page-scroll" href="#houses">Houses</a>
+                    </li> -->
+                    <li>
+                        <a class="page-scroll" href="#portfolio">At Kings Landing</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#milkshakes">Family of Shakes</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#aboutus">About Us</a>
+                    </li>
+					 <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+
+	<div class="header" id="head">
+		<div class="header-top">
+			<div class="container">
+				<div class="logo">
+				<a href="#"></a><!--Put your logo here-->
+				</div>
+				
+				<!--script-nav-->
+				<script>
+				 $("span.menu").click(function(){
+				 $(".top-menu ul").slideToggle("slow" , function(){
+				 });
+				 });
+				</script>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+
+
+		<!--Slider Section-->
+		<div class="slider"> 
+			 <div class="container">
+				   <div class="callbacks_container">
+					  <ul class="rslides" id="slider">
+						 <li>	          
+							<h3>“A mind needs books as a sword needs a whetstone, if it is to <span>keep its edge</span>.” </h3>
+							<p style="font-family: 'northwood_highregular';">― George R.R. Martin, A Game of Thrones</p>          
+						 </li>
+						 <li>	          
+							<h3>“<span>Winter</span> is coming.”</h3>  
+							<p style="font-family: 'northwood_highregular';">― George R.R. Martin, A Game of Thrones</p>          
+						 </li>
+						 <li>	          
+							<h3>“Some old wounds never truly heal, and bleed again at the <span>slightest word</span>. </h3>
+							<p style="font-family: 'northwood_highregular';">― George R.R. Martin, A Game of Thrones</p>  	          
+						 </li>
+					  </ul>
+				  </div>
+			  </div>
+		</div>
+	</div> 
+	<!--End Slider Section-->
+
+
+	<!--Content Section-->
+	<div id="kingofnorth">
+		<div class="content cafe-of-north">
+			<div class="about-section"><!--King Of The North Section-->
+				<div class="about-grids">
+
+					<div class="col-md-6 left-grid">
+
+						<div class="right-grid1-icon">
+							<img src="images/icon.png"> <!--Put your Central Icon HERE-->
+						</div>
+
+						<img src="images/cafe.jpg"/><!--Put your Right Image HERE-->
+					</div>
+
+					<div class="col-md-6 right-grid">
+						<div class="right-top">
+							<h3>Cafe Of the <span>North</span></h3><br>
+							<p>King in the North was the title given to the ruler of the North during its time as an independent kingdom, before the coming of the Targaryens.</p>
+	                        <p class="lable1">A colloquial title also used for the rulers of the North was the "Kings of Winter". House Stark ruled as Kings in the North for thousands of years.
+	                        	</p>
+							<p class="lable1">The ancient Kings of Winter, House Stark ruled as Kings in the North stretching back into the mists of time, before written history began six thousand years ago, when the Andals invaded all of southern Westeros.
+							</p>
+						</div>
+
+						<div class="right-bottom">
+							<h4>"There sits the only king I mean to bend my knee to:<br>the King in the North!" <br> ―Lord Greatjon Umber, indicating King Robb Stark<h4>
+						</div>
+					</div>
+					
+					<div class="clearfix"> </div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--End King Of The North Section-->
+
+
+	<!--Waffles Section-->
+	<div id="waffles">
+		<div class="services-section" id="service">
+			<div class="container">
+				<div class="col-md-6 service-leftgrid">
+					
+					<h3><img src="images/waffle.png"> Waffles of <span>Westeros</span></h3>
+					<p>A waffle is a dish made from leavened batter or dough that is cooked between two plates that are patterned to give a characteristic size, shape and surface impression. There are many variations based on the type of waffle iron and recipe used. dish made from leavened batter or dough that is cooked between two plates that are patterned to give a characteristic size
+                	</p>
+				</div>
+
+				<div class="col-md-6 service-rightgrid">
+					<div class="service1">
+						<div class="right-grid1">
+							<img src="images/waffle-2.png">
+						</div>
+						<div class="right-grid2">
+							<br><h4>Mother Of Dragons</h4>
+								<p>Khaleesi is a Dothraki title referring to the wife of the khal. A khaleesi's status varies greatly from khalasar to khalasar. </p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+
+
+					<div class="service2">
+						<div class="right-grid1">
+							<img src="images/waffle-3.png">
+						</div>
+						<div class="right-grid2">
+							<h4>Valar Morghulis</h4>
+								<p>Margaery Tyrell is a major character in the second, third, fourth and fifth seasons. She is played by Natalie Dormer and debuts in "What is Dead May Never Die.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+
+
+					<div class="service3">
+						<div class="right-grid1">
+							<img src="images/waffle-4.png">
+						</div>
+						<div class="right-grid2">
+							<h4>Valyrian Steel</h4>
+								<p>The Valyrian Steel waffle is on of our best creations. You can only try it out here ate Gospel of Tastes Bandra.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div><!--End Waffles Section-->
+	</div>
+
+
+	<!--Flag Houses Corousal-->
+	<div id="houses" class="flags">
+		<div id="line" class="flags">
+			
+			<div class="nav hangerNav jsHangerNav">
+				<div class="jsPrev prev overflow inactive"><a href="#">&laquo; vorige Gruppe</a></div>
+				<div class="jsNext next overflow"><a href="#">&raquo; nächste Gruppe</a></div>
+			</div>
+
+			<ul class="centered">
+					
+			    <li class="img shadow">
+					<div class="clip"></div>
+					<a href="" >
+						<span class="rollOver jsRollOver"><span class="zoom"><span class="subTitle">The Starks</span></span></span>
+					<img src="media/photologue/Flags/stark.jpg" width="200" alt="Hotel Gams" title=""/>
+					</a>
+					<!-- <div class="title shadow">
+						<span class="jsRollover">Hotel Gams</span>
+					</div> -->
+				</li>
+
+				<li class="img shadow">
+					<div class="clip"></div>
+					<a href="" >
+						<span class="rollOver jsRollOver"><span class="zoom"><span class="subTitle">The Targaryens</span></span></span>
+						<img src="media/photologue/Flags/targaryen.jpg" width="200" height="330" alt="Arlberger Bergbahnen" title=""/>
+					</a>
+					<!-- <div class="title shadow"><span class="jsRollover">Arlberger Bergbahnen</span></div> -->
+				</li>
+
+				<li class="img shadow">
+					<div class="clip"></div>
+					<a href="" >
+						<span class="rollOver jsRollOver"><span class="zoom"><span class="subTitle">The Targaryens</span></span></span>
+						<img src="media/photologue/Flags/fireblood.jpg" width="200" alt="Aurelio Lech" title=""/>
+					</a>
+					<!-- <div class="title shadow"><span class="jsRollover">Aurelio Lech</span></div> -->
+				</li>
+
+				<li class="html shadow">
+					<div class="clip"></div>
+					<div class="richtext">
+						<div class="clip"></div>
+						<a target="_blank" href="https://www.facebook.com/Tirolissimo/photos/a.374252563886.156388.180391853886/10154679198238887/?type=3&amp;theater">
+						<span class="rollOver jsRollOver">
+						<span class="zoom">
+						<span class="subTitle">The House of Lannisters<br/><br/><br/><br/></span></span></span>
+						<img alt="Büro Maisengasse" src="media/photologue/Flags/houseoflannister.jpg" style="display:block" />
+						</a>
+					</div>
+				</li>
+
+				<li class="img shadow">
+					<div class="clip"></div>
+					<a href="" >
+						<span class="rollOver jsRollOver"><span class="zoom"><span class="subTitle">The Lannisters</span></span></span>
+						<img src="media/photologue/Flags/hearmeroar.jpg" width="200" alt="Hotel Post" title=""/>
+					</a>
+					<!-- <div class="title shadow"><span class="jsRollover">Hotel Post</span></div> -->
+				</li>
+
+				<li class="img shadow">
+					<div class="clip"></div>
+					<a href="" >
+						<span class="rollOver jsRollOver"><span class="zoom"><span class="subTitle">The Baratheons</span></span></span>
+						<img src="media/photologue/Flags/baratheon.jpg" width="200" alt="winePad" title=""/>
+					</a>
+					<!-- <div class="title shadow"><span class="jsRollover">winePad</span></div> -->
+				</li>
+
+				<li class="img shadow">
+					<div class="clip"></div>
+					<a href="" >
+						<span class="rollOver jsRollOver"><span class="zoom"><span class="subTitle">The House Of Greyjoy</span></span></span>
+						<img src="media/photologue/Flags/houseofgreyjoy.jpg" width="200" alt="Arlberg Sports" title=""/>
+					</a>
+					<!-- <div class="title shadow"><span class="jsRollover">Arlberg Sports</span></div> -->
+				</li>
+
+				<li class="img shadow">
+					<div class="clip"></div>
+					<a href="" >
+						<span class="rollOver jsRollOver"><span class="zoom"><span class="subTitle">The House of Tyrell</span></span></span>
+						<img src="media/photologue/Flags/houseoftyrell.jpg" width="200" alt="Aurelio Lech" title=""/>
+					</a>
+					<!-- <div class="title shadow"><span class="jsRollover">Aurelio Lech</span></div> -->
+				</li>
+
+				<li class="img shadow">
+					<div class="clip"></div>
+					<a href="" >
+						<span class="rollOver jsRollOver"><span class="zoom"><span class="subTitle">The House Of Arryn</span></span></span>
+						<img src="media/photologue/Flags/houseofarryn.jpg" width="200" alt="Mag. Rainhard Pfandl" title=""/>
+					</a>
+					<!-- <div class="title shadow"><span class="jsRollover">Mag. Rainhard Pfandl</span></div> -->
+				</li>
+			</ul>
+		</div>
+	</div>
+
+
+	<!-- Dragon Flying -->
+
+	<div class="jsVentilator"></div>
+	<div class="jsVentilatorBtn"><a class="overflow">Ventilator on/off</a></div>
+
+
+	<!--Portfolio Section-->
+	<div id="portfolio" class="gallery">
+		<!-- <div class="portfolio-section"> -->
+			<!-- <div class="container"> -->
+				<div class="portfolio-header">
+					<h3><img src="images/img3.png">The Kings <span>Landing</span></h3>
+					<p>Where The Iron Throne sits of the Seven Kingdoms..</p>
+				</div>
+				
+				<div class="portfolio"  id="portfolio">
+					<ul id="filters" class="clearfix">
+						<li><span class="filter active" data-filter="app card icon web">Album 1</span></li>
+						<li><span class="filter" data-filter="app">Album 2</span></li>
+						<li><span class="filter" data-filter="card">Album 3</span></li>
+						<li><span class="filter" data-filter="app card icon">Album 4</span></li>
+						<li><span class="filter" data-filter="card icon web">Album 5</span></li>
+					</ul>
+				</div>
+
+				<div id="portfoliolist">
+					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper grid_box">		
+							<a href="images/1.jpg" class="swipebox"  title="Image Title"> 
+								<img src="images/1.jpg" class="img-responsive" alt=""> <!-- Put your image here -->
+								<span class="zoom-icon"></span> </a></div>
+						</div>	
+
+					<div class="portfolio app mix_all " data-cat="app" style="display: inline-block; opacity: 1; ">
+						<div class="portfolio-wrapper grid_box">		
+							 <a href="images/2.jpg" class="swipebox"  title="Image Title"> <img src="images/2.jpg" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
+		                </div>
+					</div>	
+
+					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper grid_box">		
+							<a href="images/3.jpg" class="swipebox"  title="Image Title"> <img src="images/3.jpg" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
+		                </div>
+					</div>	
+
+					<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper grid_box">		
+							<a href="images/4.jpg" class="swipebox"  title="Image Title"> <img src="images/4.jpg" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
+		                </div>
+					</div>	
+	
+					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper grid_box">		
+							<a href="images/5.jpg" class="swipebox"  title="Image Title"> <img src="images/5.jpg" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
+		                </div>
+					</div>	
+
+					<div class="portfolio icon mix_all" data-cat="icon" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper grid_box">		
+							<a href="images/6.jpg" class="swipebox"  title="Image Title"> <img src="images/6.jpg" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
+		                </div>
+					</div>	
+					
+					<div class="portfolio card mix_all" data-cat=" web" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper grid_box">		
+							<a href="images/7.jpg" class="swipebox"  title="Image Title"> <img src="images/7.jpg" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
+		                </div>
+					</div>	
+
+					<div class="portfolio card mix_all" data-cat="icon" style="display: inline-block; opacity: 1;">
+						<div class="portfolio-wrapper grid_box">		
+							<a href="images/8.jpg" class="swipebox"  title="Image Title"> <img src="images/8.jpg" class="img-responsive" alt=""><span class="zoom-icon"></span> </a>
+		                </div>
+					</div>											
+					<!-- <div class="clearfix"> </div> -->								
+				</div>
+				<div class="clearfix"> </div>
+			<!-- </div> -->
+		<!-- </div> -->
+	</div>
+	<!--End Portfolio Section-->
+
+
+	<!--Testimonials Section-->
+	<div id="testimonial">
+		<div class="testimonial-section" id="testimonial">
+			<div class="container">
+				<div class="testimonial-header">
+					<h3><img src="images/icon3.png"> Best <span>Quotes</span></h3>
+					<p>Best quotes in Game of Thrones.</p>
+				</div> 
+
+				<div class="wmuSlider example1">
+			 		<div class="container-flueid">
+				    	<article style="position: absolute;"> 
+					   		<div class=" cont span_2_of_3  client-main">
+								<div class="slide-text">
+									<h4> “Why is it that when one man builds a wall, the next man immediately needs to know what's on the other side?”</h4>
+							       	<img src="images/icon8.png">
+							 	</div>
+							</div>
+		 				</article>
+
+						<article style="position: absolute;"> 
+						   	<div class=" cont span_2_of_3  client-main">
+								<div class="slide-text">
+									<h4> “Once you’ve accepted your flaws, no one can use them against you.”</h4>
+							  		<img src="images/icon8.png">	
+							 	</div> 
+							</div>
+						</article>
+
+						<article style="position: absolute;"> 
+						   	<div class="cont span_2_of_3  client-main">
+								<div class="slide-text">
+									<h4> ‘Tears aren’t a woman’s only weapon. The best one’s between your legs. ’</h4>
+							  		<img src="images/icon9.png">
+							 	</div>
+							</div>
+						</article>
+						<article style="position: absolute;"> 
+						   	<div class="cont span_2_of_3  client-main">
+								<div class="slide-text">
+									<h4> ‘I am not questioning your honor, I am denying its existence.’</h4>
+							  		<img src="images/icon8.png">
+							 	</div>
+							</div>
+						</article>
+						<article style="position: absolute;"> 
+						   	<div class="cont span_2_of_3  client-main">
+								<div class="slide-text">
+									<h4> ‘You are as big a fool as every other man. That little worm between your legs does half your thinking.’</h4>
+							  		<img src="images/icon9.png">
+							 	</div>
+							</div>
+						</article>				
+						<div class="clearfix"> </div>
+     				</div>
+     			</div>
+ 			</div>
+ 		</div>
+ 	</div>
+
+	
+	<!--Milshakes Section-->
+	<div id="milkshakes">
+		<div class="pricing-section" id="pricing">
+			<div class="container">
+				<div class="pricing-header">
+					<h3><img src="images/milkshake.png">Family of <span>Shakes</span></h3>
+					<p>The Family Of Milkshakes At Gospel Of Taste</p>
+				</div>
+				<div class="pricing-grids">
+					<div class="col-md-4 pric-grid effect">
+						<div class="pric-top">
+							<span>1</span>											
+							<h4>Starks</h4>
+						</div>
+						<div class="pric-list">
+							<ul>
+								<li>Peanut Butter</li>
+								<li>Nutella</li>
+								<li>Vanilla</li>
+								<!-- <li>Arya Stark</li>
+								<li>John Snow</li> -->
+						     </ul>
+						<!-- <p><a href="#">Kill now</a></p> -->
+						</div>
+					</div>
+
+					<div class="col-md-4 pric-grid effect">
+						<div class="pric-top">
+							<span>2</span>											
+							<h4>Lannisters</h4>
+						</div>
+						<div class="pric-list">
+							<ul>
+							<li>Bubblegum Strawberry</li>
+								<li>Black Forest Cherry</li>
+								<li>Chocolate Cookie</li>
+								<li>Mango Caramel</li>
+								<li>Watermelon</li>
+								<li>Bubblegum</li>
+								<li>Strawberry</li>
+								<li>Affogato</li>
+						    </ul>
+						<!-- <p><a href="#">Kill now</a></p> -->
+						</div>
+					</div>
+
+					<div class="col-md-4 pric-grid effect">
+						<div class="pric-top">
+							<span>3</span>											
+							<h4>Targaryens</h4>
+						</div>
+
+						<div class="pric-list">
+							<ul>
+								<li>Mango Passion Fruit</li>
+								<li>Strawberry Cookie</li>
+								<li>Blueberry Cookie</li>
+								<li>Chocolate Mint</li>
+								<li>Passion Fruit</li>
+								<li>Rasberry</li>
+								<li>Blueberry</li>
+								<li>Mango</li>
+								<li>Kiwi</li>
+							</ul>
+							<!-- <p><a href="#">Kill now</a></p> -->
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>		
+
+
+	<!--About Us Section-->
+	<div id="aboutus" class="about-us">
+		<div class="team-section">
+			<div class="container">
+				<div class="team-header">
+					<h3><img src="images/wheel.gif">&nbsp;About <span>Us</span></h3>
+					<p>The Cafe Of Westeros.</p>
+				</div>
+
+				<div class="team-grids">
+					<div class="col-md-4 team-grid">
+						<img src="images/gospel-of-taste-cafe.jpg">
+					</div>
+					<div class="team-grids">
+						<div class="col-md-8 team-grid">
+							<div class="team-content">
+								<h4>Gospel Of Taste</h4><br><br><br><br>
+								<h3>Cafe</h3><h2>In the North</h2>
+								<br>
+							<p> Started by Samreen Ismail an ardent Game Of Thrones fan, along with her husband Aradhya Kumar, Gospel Of Taste is the first Game Of Thrones-themed cafe in Mumbai. Located on St.Theresa Road, a little ahead of Title Waves, the cafe is already on our must-visit list. The attention to detail at the cafe is impeccable with an Iron Throne, dragon eggs, swords and dragon miniatures adorning the space.</p>
+							<p> You should be heading here if you’re still reeling from the fact that the last season is two years away, or if you want to claim the Iron Throne.</p>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div> 
+			</div>
+		</div>
+	</div>
+
+	
+	<!--Contact Section-->
+	<div id="contactus">
+		<div class="contact-section" id="contact">
+			<div class="contact-grids">
+				<div class="col-md-6 contact-leftgrid">
+					<!--Title Contact Section-->
+					<h3><img src="images/icon7.png"> Send us a <span>Sword</span></h3>
+					<p>Kill me with a sword, please.</p>
+					<!--End Title Contact Section-->
+					<form>
+						<input type="text" class="text" value="Name " onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name ';}">
+						<input type="text" class="text" value="Email " onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email ';}">
+						<textarea value="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message </textarea>
+			 			<input type="submit" value="SEND">
+					</form>
+				</div>
+
+				<!--Google Maps Section-->
+				<div class="col-md-5 contact-rightgrid">
+					<div class="google-map">
+						<!-- <img src="images/map.jpg"> </img> -->
+						<img src="images/map.png" width="100%" height="100%" style="border: 0; overflow:hidden; "></img>
+						<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7098.94326104394!2d78.0430654485247!3d27.172909818538997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1385710909804" width="600" height="450" frameborder="0" style="border:0"></iframe> -->
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+				
+	<!--Footer-->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="container">
+								
+				<div class="footer-top">
+					<p> Designed by<a href="http://w3layouts.com/" target="target_blank">Codegency</a></p>
+				</div>
+
+				<!-- <script type="text/javascript">
+					$(document).ready(function() {
+						/*
+						var defaults = {
+				  			containerID: 'toTop', // fading element id
+							containerHoverID: 'toTopHover', // fading element hover id
+							scrollSpeed: 1200,
+							easingType: 'linear' 
+				 		};
+						*/
+						
+						$().UItoTop({ easingType: 'easeOutQuart' });
+						
+					});
+				</script> -->
+				<!-- <a class="scroll" href="#head" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a> -->
+			</div>
+		</div>
+	</div>
+</body>
+
+<!-- Script for gallery Here -->
+<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+	<script type="text/javascript">
+	$(function () {
+		
+		var filterList = {
+		
+			init: function () {
+			
+				// MixItUp plugin
+				// http://mixitup.io
+				$('#portfoliolist').mixitup({
+					targetSelector: '.portfolio',
+					filterSelector: '.filter',
+					effects: ['fade'],
+					easing: 'snap',
+					// call the hover effect
+					onMixEnd: filterList.hoverEffect()
+				});				
+			
+			},
+			
+			hoverEffect: function () {
+			
+				// Simple parallax effect
+				$('#portfoliolist .portfolio').hover(
+					function () {
+						$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+						$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+					},
+					function () {
+						$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+						$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+					}		
+				);				
+			}
+		};
+		// Run the show!
+		filterList.init();
+	});	
+</script>
+
+
+<!--JS For Testimonials-->
+<script>
+	     $('.example1').wmuSlider();         
+</script> 
+
+
+<!-- Cufon für IE -->
+	<script type="text/javascript"> Cufon.now(); </script>
+
+	<!-- Google Analytics -->
+	<script type="text/javascript">
+
+	    var _gaq = _gaq || [];
+	      _gaq.push(['_setAccount', 'UA-18077957-1']);
+	        _gaq.push(['_trackPageview']);
+
+		(function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+</html>
